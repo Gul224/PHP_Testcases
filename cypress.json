@@ -1,0 +1,50 @@
+{
+  "baseUrl": "https://www.phptravels.net/login",
+  "projectId": "7s5okt",
+  "integrationFolder": "cypress/tests",
+  "viewportHeight": 1000,
+  "viewportWidth": 1280,
+  "firefoxGcInterval": null,
+  "retries": {
+    "runMode": 2,
+    "openMode": 1
+  },
+  "env": {
+    "apiUrl": "http://localhost:3001",
+    "mobileViewportWidthBreakpoint": 414,
+    "coverage": false,
+    "codeCoverage": {
+      "url": "http://localhost:3001/__coverage__"
+    }
+  },
+  "reporterEnabled": "mochawesome",
+    "mochawesomeReporterOptions": {
+        "reportDir": "cypress/results/json",
+        "overwrite": false,
+        "html": false,
+        "json": true
+    },
+    
+      "reporter": "salty-cypress-testrail-reporter",
+      "reporterOptions": {
+        "domain": "deepthiballa1.testrail.io/",
+        "username": "gulafshan.shaik@zemosolabs.com",
+        "password": "Faygul224",
+        "projectId": 1,
+        "suiteId": 5,
+        "createTestRun": "false",
+        "runId": 9,
+        "runName": "Login"
+      }
+    }
+    
+  
+
+
+    
+  
+
+
+
+
+  
